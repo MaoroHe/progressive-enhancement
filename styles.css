@@ -46,9 +46,33 @@ blockquote q, footer, cite {
     background-color: grey;
 }
 
-em {
+q {
     font-style: italic;
-    font-weight: bold;
+    font-weight: normal;
+}
+
+.bien {
+    background-image: url('assets/bien.png');
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    background-position: 260px;
+    background-size: contain;
+}
+
+.mal {
+    background-image: url('assets/mal.png');
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    background-position: 245px;
+    background-size: contain;
+}
+
+.chat {
+    background-image: url('assets/chat.png');
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    background-position: 245px;
+    background-size: contain;
 }
 
 .vill {
@@ -61,4 +85,26 @@ em {
 
 header blockquote q {
     background-color: yellow;
+}
+
+.bad {
+    color: red;
+    text-transform: capitalize;
+}
+
+.good {
+    color: green;
+    text-transform: capitalize;
+}
+
+.gris {
+    background-color: lightgrey;
+}
+
+.blanc {
+    background-color: white;
+}
+
+#firstp {
+    font-weight: bold;
 }
