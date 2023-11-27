@@ -1,3 +1,13 @@
+body {
+    max-width: 90%;
+    margin-left: 25%;
+    background-color: #D3BAAB;
+    background-image: url('assets/rm245-bb-62.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
 p {
     font-family: serif;
     letter-spacing: 0.80px;
@@ -18,4 +28,37 @@ a:hover {
 a:visited {
     color: #8992ec;
     font-size: 95%;
+}
+
+blockquote {
+    margin-left: 20%;
+    border-left: 3px firebrick solid;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+blockquote q {
+    font-size: 160%;
+}
+
+blockquote q, footer, cite {
+    background-color: grey;
+}
+
+em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.vill {
+    border-left: 2px red solid;
+}
+
+.farm {
+    border-left: 2px blue solid;
+}
+
+header blockquote q {
+    background-color: yellow;
 }
