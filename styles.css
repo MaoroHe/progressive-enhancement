@@ -1,0 +1,21 @@
+p {
+    font-family: serif;
+    letter-spacing: 0.80px;
+    font-size: 110%;
+    color: #111111;
+}
+
+a {
+    color: #b289ec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
+}
+
+a:hover {
+    color: #92ec89;
+}
+
+a:visited {
+    color: #8992ec;
+    font-size: 95%;
+}
