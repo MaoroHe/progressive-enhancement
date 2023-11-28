@@ -1,11 +1,16 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 body {
     max-width: 90%;
-    margin-left: 25%;
+    margin: auto;
     background-color: #D3BAAB;
     background-image: url('assets/rm245-bb-62.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
+    width: auto;
 }
 
 p {
@@ -13,6 +18,11 @@ p {
     letter-spacing: 0.80px;
     font-size: 110%;
     color: #111111;
+}
+
+h1 {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a {
@@ -36,13 +46,15 @@ blockquote {
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+    display: flex;
+    margin-right: 450px;
 }
 
 blockquote q {
     font-size: 160%;
 }
 
-blockquote q, footer, cite {
+blockquote, q, footer, cite {
     background-color: grey;
 }
 
@@ -55,7 +67,7 @@ q {
     background-image: url('assets/bien.png');
     background-repeat: no-repeat;
     padding-right: 30px;
-    background-position: 260px;
+    background-position: 290px;
     background-size: contain;
 }
 
@@ -63,7 +75,7 @@ q {
     background-image: url('assets/mal.png');
     background-repeat: no-repeat;
     padding-right: 30px;
-    background-position: 245px;
+    background-position: 275px;
     background-size: contain;
 }
 
@@ -71,7 +83,7 @@ q {
     background-image: url('assets/chat.png');
     background-repeat: no-repeat;
     padding-right: 30px;
-    background-position: 245px;
+    background-position: 275px;
     background-size: contain;
 }
 
@@ -99,12 +111,51 @@ header blockquote q {
 
 .gris {
     background-color: lightgrey;
+    border: #111111 2px solid;
 }
 
 .blanc {
     background-color: white;
+    border: #111111 2px solid;
 }
 
 #firstp {
     font-weight: bold;
 }
+
+/*-----------------------------------------------------------------------------------*/
+
+.box {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.floatest {
+    margin-top: auto;
+    margin-bottom: 25px;
+    height: auto;
+    max-width: 750px;
+    margin-right: 10px;;
+    float: left;
+}
+
+.box .bloc {
+    text-align: justify;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    /* rajoute le code nécessaire ici*/
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
